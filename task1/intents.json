@@ -1,0 +1,171 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good evening",
+        "hlo",
+        "how are you",
+        "is anyone there"
+      ],
+      "responses": [
+        "Hi there! What can I do for you?",
+        "Hello! How can I help you today?",
+        "Hey! How may I assist you?"
+      ]
+    },
+
+    {
+      "tag": "order_status",
+      "patterns": [
+        "track my order",
+        "where is my order",
+        "order status",
+        "when will my order arrive",
+        "package not delivered",
+        "delivery status",
+        "my order is late",
+        "check order",
+        "order tracking",
+        "my package is delayed"
+      ],
+      "responses": [
+        "Please share your order ID to check the status.",
+        "I can help track your order. Please provide your order number.",
+        "Your order details can be checked using your order ID."
+      ]
+    },
+
+    {
+      "tag": "refund",
+      "patterns": [
+        "refund policy",
+        "cancel my order",
+        "i need refund",
+        "money back",
+        "return my product",
+        "refund amount",
+        "how to get refund",
+        "can i cancel order"
+      ],
+      "responses": [
+        "Refunds are processed within 5 to 7 business days.",
+        "You can request a refund through customer support.",
+        "Please provide your order ID to process the refund."
+      ]
+    },
+
+    {
+      "tag": "product_info",
+      "patterns": [
+        "tell me about products",
+        "available products",
+        "what products do you have",
+        "show products",
+        "what can i buy",
+        "available items",
+        "latest products"
+      ],
+      "responses": [
+        "We offer laptops, electronics, accessories and smart devices.",
+        "Our products include electronics, laptops and accessories."
+      ]
+    },
+
+    {
+      "tag": "payment",
+      "patterns": [
+        "payment issue",
+        "payment failed",
+        "transaction failed",
+        "money deducted",
+        "unable to pay",
+        "payment problem"
+      ],
+      "responses": [
+        "Sorry for the inconvenience. Please share your transaction ID.",
+        "Your payment issue will be resolved shortly. Please provide payment details."
+      ]
+    },
+
+    {
+      "tag": "shipping",
+      "patterns": [
+        "shipping details",
+        "delivery charges",
+        "shipping cost",
+        "how much is delivery charge",
+        "shipping information"
+      ],
+      "responses": [
+        "Shipping charges depend on your location and order amount.",
+        "Delivery charges will be shown during checkout."
+      ]
+    },
+
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "customer support",
+        "contact support",
+        "talk to agent",
+        "speak to customer care",
+        "help me"
+      ],
+      "responses": [
+        "You can contact customer support at support@email.com",
+        "Our customer care team is available 24/7."
+      ]
+    },
+
+    {
+      "tag": "account_help",
+      "patterns": [
+        "forgot password",
+        "reset password",
+        "login issue",
+        "cannot login",
+        "account problem"
+      ],
+      "responses": [
+        "You can reset your password using the Forgot Password option.",
+        "Please check your email for account recovery instructions."
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "thankyou",
+        "great help"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Glad I could assist you."
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "thanks bye",
+        "talk later"
+      ],
+      "responses": [
+        "Thank you for visiting. Have a nice day!",
+        "Goodbye! Feel free to visit again.",
+        "Take care! Visit us again."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+fever,cough,headache,vomiting,fatigue,body_pain,disease
+1,1,1,0,1,1,Flu
+1,1,1,0,1,0,Flu
+1,1,0,0,1,0,Cold
+1,1,0,0,0,0,Cold
+0,0,1,0,1,0,Migraine
+0,0,1,0,0,0,Migraine
+1,0,1,1,1,1,Food Poisoning
+1,0,1,1,1,0,Food Poisoning
+0,0,0,0,1,1,Diabetes
+0,0,0,0,1,0,Diabetes
+0,0,1,0,1,1,Heart Disease
+0,0,1,0,1,0,Heart Disease
+1,0,0,1,1,1,Food Poisoning
+1,1,1,1,1,1,Flu
+1,1,0,0,1,1,Cold
+0,0,1,0,1,1,Migraine
+0,0,0,0,0,1,Diabetes
+0,1,1,0,1,1,Heart Disease
+1,0,0,0,1,1,Viral Fever
+1,0,1,0,1,1,Viral Fever
+0,1,0,0,1,0,Allergy
+0,1,0,0,0,0,Allergy
+1,1,1,1,0,1,Typhoid
+1,0,1,1,1,1,Typhoid
